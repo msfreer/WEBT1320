@@ -135,7 +135,7 @@ img {
 @media (min-width: 1024px) {
     #container {
         width: 65%;
-        margin: 4px;
+        margin: 5% auto;
     }
 
     nav {
