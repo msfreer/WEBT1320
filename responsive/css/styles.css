@@ -150,10 +150,6 @@ img {
         background-color:blanchedalmond;
     }
 
-    hr {
-        display: none;
-    }
-
     #private {
     display:flex
     }
