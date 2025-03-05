@@ -207,16 +207,6 @@ img {
         color: aliceblue;
         text-shadow: 2px 2px 3px black;
     }
-        
-    .multi_com {
-        width: 60%;       
-        margin: 20px;
-        padding: 40px;
-        border: 5px solid #143548;
-        margin-left: 25%;
-        border-radius: 10px;
-        background-color: #808080;
-    }
 
     .bull {
         line-height: 30px;
@@ -229,7 +219,7 @@ img {
         width: 60%;
         margin: 20px;
         padding: 40px;
-        margin-left: 10%;
+        margin-left: 40%;
         border: 5px solid #143548;
         border-radius: 10px;
         background-color: #808080;
@@ -240,7 +230,7 @@ img {
         margin: 20px;
         padding: 40px;
         border: 5px solid #143548;
-        margin-left: 25%;
+        margin-left: 40%;
         border-radius: 10px;
         background-color: #808080;
     }
