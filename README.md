@@ -4,4 +4,5 @@
     <li><a href="HTML5_intro_to_css/index1.html" target="blank">HTML5 and Intro To CSS</a></li>
     <li><a href="adv_css/index.html" target="blank">Advanced CSS</a></li>
     <li><a href="responsive/index.html" target="blank">Responsive Web Design</a></li>
+    <li><a href="final/index.html" target="blank">Final Project</a></li>
 <ul>
