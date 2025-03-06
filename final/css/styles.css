@@ -1,6 +1,10 @@
 /* Global Styles */
 
 body {
+    background-image: url("Background.jpg");
+    background-size: cover; /* Ensures it covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
     background-color: rgb(146, 146, 146);
     font-family: "Arvo", serif;
     font-weight: 400;
@@ -14,12 +18,17 @@ img {
     border-radius: 15px;
 }
 
+footer {
+    color: white;
+}
+
 #container {
     background-color: rgb(255, 255, 255);
     border: 15px ridge #2d749c;
     margin: 5% auto;
     padding: 10px;
     border-radius: 10px;
+    opacity: 85%;
 }
 
 .text {
@@ -109,18 +118,34 @@ img {
         border: 2px solid #143548;
         padding: 10px;
         border-radius: 20px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .center-link:hover {
+        transform: scale(1.1);
+        background-color: #6b6b6b; 
+        border-color: #1d5b7a;
     }
 
     .center-video {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #808080;
+        position: relative;
         width: 40%;
         margin: 20px auto;
-        border: 5px solid #143548;
-        padding: 5px;
+        background-color: #808080;
         border-radius: 20px;
+        overflow: hidden; 
+        border: 5px solid #143548; 
+        aspect-ratio: 16 / 8; 
+    }
+    
+    .center-video iframe, 
+    .center-video video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
     }
 
     footer {
@@ -142,11 +167,12 @@ img {
     }
 
     nav li a {
-        width: 140px;
-        height: 50px;
-        line-height: 50px;
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
         margin-top: 10px;
         margin-bottom: 10px;
+        box-shadow: black 2px 2px 2px;
     }
 
     .image {
@@ -168,10 +194,12 @@ img {
 
     nav li a {
         background-color: #acacac;
+        transition: transform 0.2s ease, background-color 0.2s ease;
     }
 
     nav a:hover {
         background-color:#2d749c;
+        transform: scale(1.2);
     }
 
     #private {
@@ -191,6 +219,7 @@ img {
         margin-top: 4%;
         border-radius: 30px;
         background-color: #808080;
+        box-shadow: black 5px 2px 5px;
     }
 
     .col {
@@ -200,6 +229,7 @@ img {
         border: 5px solid #143548;
         border-radius: 30px;
         background-color: #808080;
+        box-shadow: black 5px 2px 5px;
     }
 
     .multi_style {
@@ -218,10 +248,11 @@ img {
         width: 60%;
         margin: 20px;
         padding: 40px;
-        margin-left: 40%;
+        margin-left: 20%;
         border: 5px solid #143548;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 
     .multi_com {
@@ -229,9 +260,10 @@ img {
         margin: 20px;
         padding: 40px;
         border: 5px solid #143548;
-        margin-left: 40%;
+        margin-left: 25%;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 
     .multi_coms {
@@ -242,6 +274,7 @@ img {
         margin-left: 15%;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 
     .colum {
@@ -252,6 +285,7 @@ img {
         border: 5px solid #143548;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 
     .multi_con {
@@ -262,6 +296,7 @@ img {
         margin-left: 10%;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 
     .multi_colm {
@@ -272,5 +307,6 @@ img {
         margin-left: 20%;
         border-radius: 10px;
         background-color: #808080;
+        box-shadow: black 4px 4px 10px;
     }
 }
